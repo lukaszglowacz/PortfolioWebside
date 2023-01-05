@@ -252,7 +252,7 @@ nav h3 a:hover {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     * {
         padding: 0;
         margin: 0;
@@ -373,7 +373,8 @@ nav h3 a:hover {
     }
     
     .sub-header {
-        font-size: 1.8rem;
+        width: 400px;
+        font-size: 1.6rem;
         color: #c3e88d;
         font-weight: 100;
         display: flex;
@@ -410,5 +411,15 @@ nav h3 a:hover {
     .text-wrapper {
         display: flex;
         align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 20px;
+        font-size: 1rem;
+        list-style: none;
+        font-family: 'Source Code Pro', monospace;
+        padding-right: 30px
+    
     }
 }
