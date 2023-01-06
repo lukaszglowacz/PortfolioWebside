@@ -426,16 +426,17 @@ to{opacity:1}
 .footer-up ul {
     display: flex;
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 1.2rem;
     list-style: none;
     padding-right: 20px;
-    line-height: 2;
+    line-height: 1.5;
+    font-weight: 200;
 }
 
 .footer-up a {
     text-decoration: none;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 .fa-heart {
@@ -497,7 +498,7 @@ to{opacity:1}
         padding-left: 15px;
     }
 
-    #contact form {
+    #contact .form-container form {
         gap: 20px;
         animation:1s ease 2s normal forwards 1 fadein;
         -webkit-animation:3s ease 4s normal forwards 1 fadein;
@@ -512,18 +513,18 @@ to{opacity:1}
     to{opacity:1}
     }
 
-    #contact form > input {
+    #contact .form-container form > input {
         height: 30px;
         font-size: 1rem;
         padding-top: 30px;
     }
     
-    #contact form > textarea {
+    #contact .form-container form > textarea {
         font-size: 1rem;
         padding-top: 45px;
     }
     
-    #contact form button {
+    #contact .form-container form button {
         display: flex;
         width: 100px;
         height: 35px;
@@ -542,6 +543,95 @@ to{opacity:1}
         width: 300px;
         height: 500px;
     }
+
+    footer {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        background-color: black;
+        margin-top: 150px;
+        animation:1s ease 2s normal forwards 1 fadein;
+        -webkit-animation:3s ease 4s normal forwards 1 fadein;
+        opacity:0
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    .footer-main {
+        height: 100%;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-up {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .footer-form {
+        text-align: left;
+        width: 80%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .footer-form input {
+        height: 70px;
+        width: 200px;
+        border: 1px solid grey;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        border-right: none;
+    }
+    
+    .footer-form button {
+        width: 100px;
+        height: 70px;
+        font-size: 1rem;
+        border-left: none;
+    }
+    
+    .footer-form label {
+        font-size: 1.6rem;
+    }
+
+
+
+    .footer-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .footer-down p {
+        font-size: 1.1rem;
+        padding-bottom: 40px;
+    }
+
+    .footer-icons > a {
+        padding: 20px;
+        font-size: 4rem;
+        text-decoration: none;
+        color: azure;  
 }
-    
-    
+}
