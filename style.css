@@ -22,6 +22,51 @@
     color: white;
 }
 
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 40px;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+
+#contact form > input {
+    background-color: transparent;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-right: none;dsa
+    color: white;
+    padding-top: 50px;
+}
+
+#contact form > textarea {
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+#contact form button {
+    display: flex;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(117, 115, 115);
+    border-radius: 40px;
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 50px;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -290,5 +335,35 @@ nav h3 a:hover {
         font-family: 'Poppins';
         font-weight: 300;
         padding-left: 30px;
+    }
+
+    #contact form {
+        width: 300px;
+        gap: 20px;
+    }
+    
+    #contact form > input {
+        height: 30px;
+        font-size: 1rem;
+        padding-top: 30px;
+    }
+    
+    #contact form > textarea {
+        font-size: 1rem;
+    }
+    
+    #contact form button {
+        display: flex;
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 50px;
+        justify-content: center;
+        background-color: rgb(117, 115, 115);
+        border-radius: 40px;
+        font-size: 1rem;
+        color: white;
     }
 }
