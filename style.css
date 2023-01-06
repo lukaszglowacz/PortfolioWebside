@@ -22,7 +22,7 @@
     color: white;
 }
 
-#contact form {
+#contact .form-container form {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -42,52 +42,52 @@ to{opacity:1}
 to{opacity:1}
 }
 
-#contact form > input {
+#contact .form-container form > input {
     background-color: transparent;
     height: 40px;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     border-right: none;
     border-left: none;
     border-top: none;
     color: white;
-    padding-top: 50px;
+    padding-top: 20px;
     
 }
 
-#contact form > textarea {
+#contact .form-container form > textarea {
     background-color: transparent;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     border-top: none;
     border-left: none;
     border-right: none;
     color: white;
-    padding-top: 50px;
+    padding-top: 20px;
     
 }
 
-#contact form button {
-    width: 200px;
-    height: 70px;
+#contact .form-container form button {
+    width: 170px;
+    height: 60px;
+    display: flex;
     text-align: center;
     align-items: center;
     padding: 20px;
     justify-content: center;
     background-color: rgb(117, 115, 115);
     border-radius: 40px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: white;
     margin-bottom: 50px;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 15px;
+    border: none;
 }
 
-
-
 .form-container {
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 500px;
     background-color: rgb(52, 50, 50);
     padding: 30px;
     border-radius: 20px;
@@ -322,6 +322,135 @@ nav a:hover {
 nav h3 a {
     text-decoration: none;
 }
+
+
+
+
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    margin-top: 150px;
+    animation:1s ease 2s normal forwards 1 fadein;
+    -webkit-animation:3s ease 4s normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+
+.footer-main {
+    height: 100%;
+    width: 1080px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-up {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-down {
+    width: 100%;
+    height: 30%;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.footer-down p {
+    font-size: 1rem;
+    padding-left: 23px;
+    font-weight: 100;
+}
+
+.footer-icons > a {
+    padding: 10px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: azure;  
+}
+
+.footer-form {
+    width: 60%;
+    text-align: left;
+    padding: 20px;
+}
+
+.footer-form input {
+    background-color: transparent;
+    height: 50px;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 10px 0px 0px 10px;
+    border-right: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-form button {
+    width: 100px;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer-form label {
+    font-size: 1.8rem;
+}
+
+.footer-up ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    list-style: none;
+    padding-right: 20px;
+    line-height: 2;
+}
+
+.footer-up a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.fa-heart {
+    color: red;
+    padding: 4px;
+    
+}
+
+.main-section {
+    height: 300px;
+}
+
+
+
+
 
 
 
