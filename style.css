@@ -30,7 +30,17 @@
     background-color: transparent;
     text-align: center;
     justify-content: center;
+    animation:1s ease 2s normal forwards 1 fadein;
+    -webkit-animation:3s ease 4s normal forwards 1 fadein;
+    opacity:0
+}
 
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
 }
 
 #contact form > input {
@@ -343,7 +353,19 @@ nav h3 a:hover {
     #contact form {
         width: 300px;
         gap: 20px;
+        animation:1s ease 2s normal forwards 1 fadein;
+        -webkit-animation:3s ease 4s normal forwards 1 fadein;
+        opacity:0
     }
+
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+}
     
     #contact form > input {
         height: 30px;
