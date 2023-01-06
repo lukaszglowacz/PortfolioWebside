@@ -299,11 +299,6 @@ nav h3 a {
     text-decoration: none;
 }
 
-nav h3 a:hover {
-    
-}
-
-
 
 
 
@@ -339,8 +334,7 @@ nav h3 a:hover {
         font-size: 0.9rem;
         list-style: none;
         font-family: 'Source Code Pro', monospace;
-        padding-right: 15px
-    
+        padding-right: 15px;
     }
     
     nav > h3 {
