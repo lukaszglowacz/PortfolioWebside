@@ -30,6 +30,7 @@
     background-color: transparent;
     text-align: center;
     justify-content: center;
+
 }
 
 #contact form > input {
@@ -50,6 +51,7 @@
     border-left: none;
     border-right: none;
     color: white;
+    padding-top: 60px;
 }
 
 #contact form button {
@@ -351,6 +353,7 @@ nav h3 a:hover {
     
     #contact form > textarea {
         font-size: 1rem;
+        padding-top: 45px;
     }
     
     #contact form button {
