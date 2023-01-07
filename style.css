@@ -161,6 +161,8 @@ section {
     padding-top: 150px;
 }
 
+
+
 .effect { 
     padding-top: 0px;
     align-items: center;
@@ -215,8 +217,6 @@ span:first-child {
         transform: skew(-12deg);
     }
 }
-
-
 
 @keyframes scaleUpBorder {
     to {
@@ -450,12 +450,7 @@ to{opacity:1}
 }
 
 
-
-
-
-
-
-
+/* Media section - start*/
 
 
 
@@ -635,3 +630,5 @@ to{opacity:1}
         color: azure;  
 }
 }
+
+/* Media session - end */
