@@ -289,16 +289,25 @@ to{opacity:1}
 
 nav {
     width: 100%;
-    max-width: 1080px;
     background-color: #222;
     height: 30px;
     display: flex;
     padding: 10px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     animation:1s ease 2s normal forwards 1 fadein;
     -webkit-animation:3s ease 4s normal forwards 1 fadein;
     opacity:0
+}
+
+.nav-container {
+    width: 1080px;
+    background-color: #222;
+    height: 30px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between; 
 }
 
 @keyframes fadein{from{opacity:0}
@@ -310,7 +319,7 @@ to{opacity:1}
 }
 
 
-nav > h3 {
+nav h3 {
     font-size: 1.6rem;
     font-family: 'Poppins';
     font-weight: 300;
@@ -345,10 +354,6 @@ nav a:hover {
 nav h3 a {
     text-decoration: none;
 }
-
-
-
-
 
 footer {
     height: 300px;
@@ -508,7 +513,7 @@ to{opacity:1}
         padding-right: 15px;
     }
     
-    nav > h3 {
+    nav h3 {
         font-size: 1rem;
         font-family: 'Poppins';
         font-weight: 300;
